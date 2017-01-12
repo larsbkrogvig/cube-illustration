@@ -1,0 +1,20 @@
+digraph cube_map {
+    state1 [shape=record, style=filled, label="{{||}|{||}|{||}}", fillcolor=red];
+    state2 [shape=record, label="{{|Q|0}|{0|0|0}|{0|0|0}}"];
+    state1 -> state2;
+    {
+      node [shape=record, fontname="Courier" ,height=1, width=1, label="{{|x|}|{||}|{||}}"];
+       a;
+       b;
+       c;
+       a -> b;
+
+    }
+}
+
+SQUARE WITH UPPER LEFT TO LOWER RIGHT FILL
+Unicode: U+25A7, UTF-8: E2 96 A7
+
+
+SQUARE WITH DIAGONAL CROSSHATCH FILL
+Unicode: U+25A9, UTF-8: E2 96 A9

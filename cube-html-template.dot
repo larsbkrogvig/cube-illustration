@@ -1,0 +1,44 @@
+digraph G {
+template [shape=plaintext label=<
+<TABLE CLASS="fixed" BORDER="0">
+  <TR>
+  <TD WIDTH= "5" HEIGHT="5"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="5" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="5" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="5" BORDER="1"></TD>
+  <TD WIDTH= "5" HEIGHT="5"></TD>
+  </TR>
+  <TR>
+  <TD BGCOLOR="red" WIDTH= "5" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH= "5" HEIGHT="30" BORDER="1"></TD>
+  </TR>
+  <TR>
+  <TD BGCOLOR="red" WIDTH= "5" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH= "5" HEIGHT="30" BORDER="1"></TD>
+  </TR>
+  <TR>
+  <TD BGCOLOR="red" WIDTH= "5" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH= "5" HEIGHT="30" BORDER="1"></TD>
+  </TR>
+  <TR>
+  <TD WIDTH= "5" HEIGHT="5"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="5" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="5" BORDER="1"></TD>
+  <TD BGCOLOR="red" WIDTH="30" HEIGHT="5" BORDER="1"></TD>
+  <TD WIDTH= "5" HEIGHT="5"></TD>
+  </TR>
+</TABLE>
+
+>
+  ];
+
+}

@@ -1,0 +1,84 @@
+digraph G {
+state1 [shape=plaintext label=<
+<TABLE BORDER="0" CLASS="fixed">
+  <TR>
+  <TD WIDTH="5" HEIGHT="5"></TD>
+  <TD BGCOLOR="gray" WIDTH="30" HEIGHT="5" BORDER="1"></TD>
+  <TD WIDTH="30" HEIGHT="5" BORDER="0"></TD>
+  <TD WIDTH="30" HEIGHT="5" BORDER="0"></TD>
+  <TD WIDTH= "5" HEIGHT="5"></TD>
+  </TR>
+  <TR>
+  <TD WIDTH= "5" HEIGHT="30" BORDER="0"></TD>
+  <TD BGCOLOR="white" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="white" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="gray" WIDTH= "5" HEIGHT="30" BORDER="1"></TD>
+  </TR>
+  <TR>
+  <TD WIDTH= "5" HEIGHT="30" BORDER="0"></TD>
+  <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD  WIDTH= "5" HEIGHT="30" BORDER="0"></TD>
+  </TR>
+  <TR>
+  <TD WIDTH= "5" HEIGHT="30" BORDER="0"></TD>
+  <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD BGCOLOR="white" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+  <TD WIDTH= "5" HEIGHT="30" BORDER="0"></TD>
+  </TR>
+  <TR>
+  <TD WIDTH= "5" HEIGHT="5"></TD>
+  <TD WIDTH="30" HEIGHT="5" BORDER="0"></TD>
+  <TD WIDTH="30" HEIGHT="5" BORDER="0"></TD>
+  <TD BGCOLOR="gray" WIDTH="30" HEIGHT="5" BORDER="1"></TD>
+  <TD WIDTH= "5" HEIGHT="5"></TD>
+  </TR>
+</TABLE>
+>
+  ];
+  state2 [shape=plaintext label=<
+  <TABLE CLASS="fixed" BORDER="0">
+    <TR>
+    <TD WIDTH= "5" HEIGHT="5"></TD>
+    <TD WIDTH="30" HEIGHT="5" BORDER="0"></TD>
+    <TD WIDTH="30" HEIGHT="5" BORDER="0"></TD>
+    <TD WIDTH="30" HEIGHT="5" BORDER="0"></TD>
+    <TD WIDTH= "5" HEIGHT="5"></TD>
+    </TR>
+    <TR>
+    <TD WIDTH= "5" HEIGHT="30" BORDER="0"></TD>
+    <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+    <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+    <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+    <TD WIDTH= "5" HEIGHT="30" BORDER="0"></TD>
+    </TR>
+    <TR>
+    <TD WIDTH= "5" HEIGHT="30" BORDER="0"></TD>
+    <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+    <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+    <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+    <TD WIDTH= "5" HEIGHT="30" BORDER="0"></TD>
+    </TR>
+    <TR>
+    <TD WIDTH= "5" HEIGHT="30" BORDER="0"></TD>
+    <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+    <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+    <TD BGCOLOR="gray" WIDTH="30" HEIGHT="30" BORDER="1"></TD>
+    <TD WIDTH= "5" HEIGHT="30" BORDER="0"></TD>
+    </TR>
+    <TR>
+    <TD WIDTH= "5" HEIGHT="5"></TD>
+    <TD WIDTH="30" HEIGHT="5" BORDER="0"></TD>
+    <TD WIDTH="30" HEIGHT="5" BORDER="0"></TD>
+    <TD WIDTH="30" HEIGHT="5" BORDER="0"></TD>
+    <TD WIDTH= "5" HEIGHT="5"></TD>
+    </TR>
+  </TABLE>
+
+  >
+    ];
+  state1 -> state2 [fontname="Arial" label="R U R' U R U2 R'"]
+}

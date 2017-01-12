@@ -1,0 +1,151 @@
+digraph G {
+
+subgraph cluster_alg {
+  label = "Algorithms"
+  fontname = "areal"
+  alg [shape=plaintext fontname="arial" label="
+  (a) R U R' U R U2 R'
+  
+  (1) U2 L U L' U L U2 L'
+  (2) U2 R' U' R U' R' U2 R
+  (3) R' U' R U' R' U R U' R' U2 R
+  (4) R2' D' R U2 R' D R U2 R
+  (5) r U R' U' r' F R F'
+  (6) R U2 R' U' (R U R' U') (R U R' U') R U' R'
+  (7) R U' L' U R' U L U L' U L"
+  ];
+}
+
+
+
+n_sune [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/sune.png"/></TD></TR>
+</TABLE>>
+];
+
+n_antisune [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/antisune.png"/></TD></TR>
+</TABLE>>
+];
+
+n_doublesune [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/doublesune.png"/></TD></TR>
+</TABLE>>
+];
+
+n_headlights [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/headlights.png"/></TD></TR>
+</TABLE>>
+];
+
+n_hammerhead [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/hammerhead.png"/></TD></TR>
+</TABLE>>
+];
+
+n_spaceship [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/spaceship.png"/></TD></TR>
+</TABLE>>
+];
+
+n_pi [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/pi.png"/></TD></TR>
+</TABLE>>
+];
+
+l_sune [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/sune.png"/></TD></TR>
+</TABLE>>
+];
+
+l_antisune [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/antisune.png"/></TD></TR>
+</TABLE>>
+];
+
+l_doublesune [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/doublesune.png"/></TD></TR>
+</TABLE>>
+];
+
+l_headlights [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/headlights.png"/></TD></TR>
+</TABLE>>
+];
+
+l_hammerhead [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/hammerhead.png"/></TD></TR>
+</TABLE>>
+];
+
+l_spaceship [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/spaceship.png"/></TD></TR>
+</TABLE>>
+];
+
+l_pi [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/pi.png"/></TD></TR>
+</TABLE>>
+];
+
+LLO [
+margin=0, shape=plaintext, label=<
+<TABLE BORDER="0">
+  <TR><TD><IMG SRC="img/LLO.png"/></TD></TR>
+</TABLE>>
+];
+
+subgraph cluster_nicoline {
+fontname="areal"
+label="Nicoline"
+n_sune -> LLO [fontname="arial", label=" (a)"]
+n_antisune -> n_sune [fontname="arial", label=" y + (a)"]
+n_pi -> n_sune [fontname="arial", label=" (a) + y'"]
+n_doublesune -> n_sune [fontname="arial", label=" (a)"]
+n_spaceship -> n_antisune [fontname="arial", label=" y2 + (a)"]
+n_hammerhead -> n_antisune [fontname="arial", label=" (a) + y"]
+n_headlights -> n_antisune [fontname="arial", label=" y2 + (a) + y2"]
+}
+
+subgraph cluster_lars {
+fontname="areal"
+label="Lars"
+l_sune -> LLO [fontname="arial", label=" (1)"]
+l_antisune -> LLO [fontname="arial", label=" (2)"]
+l_doublesune -> LLO [fontname="arial", label=" (3)"]
+l_headlights -> LLO [fontname="arial", label=" (4)"]
+l_hammerhead -> LLO [fontname="arial", label=" (5)"]
+l_spaceship -> LLO [fontname="arial", label=" (6)"]
+l_pi -> LLO [fontname="arial", label=" (7)"]
+}
+
+
+}
